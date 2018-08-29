@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="امامزاده پیربنکی"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/pirbanakinahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="این امامزاده در فاصله ۲۰ کیلومتری شرق شهر کازرون واقع گردیده است. وجود یک درخت (بنه) بر روی گنبد این امامزاده زیبایی خاصی به بنای آن بخشیده است."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:src="@drawable/empty"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="امامزاده سید حسین"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/seydhosseinnahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="امامزاده سید حسین (ع) ابن امیر بن ابراهیم بن زین‌ العابدین از نوادگان امام چهارم، امام سجاد (ع) است. هنگام ولایتعهدی امام رضا (ع) از حجاز راهی ایران شده است. ورود ایشان به ایران با شهادت امام هشتم (ع)  مقارن می‌گردد. به دستور حاکم عباسی فارس تعداد زیادی از علویان به شهادت و عده‌ای نیز در مناطق دیگر فارس پراکنده می‌شوند. در میان این گروه امامزاده سید حسین (ع) به کازرون آمده و در ۲۲ کیلومتری غرب شهر فعلی کازرون و در ۲ کیلومتری شهر تاریخی بیشاپور بر کنار چشمه‌ای بزرگ و زیبا به نام سراب اردشیر اسکان می‌یابد. بعد از رحلت، آن بزرگوار در همین مکان مدفون گردید."/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

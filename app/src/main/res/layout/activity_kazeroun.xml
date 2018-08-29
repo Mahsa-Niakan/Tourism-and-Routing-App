@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="کازرون یکی از شهرهای ایران است که در استان فارس قرار گرفته‌است. این شهر مرکز شهرستان کازرون است. کازرون با تاریخی کهن، دارای آثار باستانی و تاریخی فراوانی است. آب فراوان و هوای مساعد باعث شده این منطقه در طول تاریخ مورد توجه سلاطین و صاحبان قدرت قرار گیرد. وجود آثار پیش از تاریخ و تاریخی ارزشمند در این شهرستان، این نظر را تایید می‌کند. در سالهای بین ۴۸۳ تا۴۹۵ بعد از میلاد، کازرون با تلاش فیروز پسر بهرام ساسانی پیشرفت یافت و در زمان قباد در سالهای ۴۸۷ تا ۴۹۸ بعد از میلاد مجددا توسعه و پیشرفت یافت."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/naghshnahaee"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="شهر کازرون از چند محله قدیمی تشکیل شده : محل بالا (علیا) ، محل مصلی ، محل گنبد ، محل کوزه گران ، محل آهنگران ، محل بازار ، محل امام زاده ، محل چابی ،  چند محله دیگر که تازه در حواشی شهر روییده‌اند مثل سعادت آباد (مجل آباد) ، محل قرچه (گل سُوزَکی) که همه این محله‌ها به هم چسبیده‌اند و شهر را بوجود آورده‌اند."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/shoahadanahaee"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بنا به روایتی تایید نشده ریشه کازرون در افسانه‌های تاریخی است . میگویند سُمغان (دهی در بالای کوه شاپور نزدیک کازرون) همان سمنگان شاهنامه فردوسی است که رستم دنبال رخشش پیاده تا آنجا رفت و از دژهای سپید و پهلو که در حوالی ممسنی امروزی است (یا بودنش در قدیم ثابت شده ،)در شاهنامه نام برده شده:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="دژی بود کش خوانندی سپید بدان دژ بد ایرانیان را امید
+"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ز پهلو به پهلو کشیده طناب سراپرده شاه افراسیاب"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اما کازرون از زمان ساسانیان به چشم سر می‌توان دید. در کمال شکوه و عظمت. با داغ نقش‌های فراوان کنده بر ران کوه‌هایش و سنگ نبشته‌ها به خط پهلوی و شهری سر از خاک در آورده با آتشکده‌های بزرگ سنگی و ستون‌های افتاده کاخی و خلاصه مجسمه‌ها و سفال‌ها وکاشی‌ها و غیره. گویا تخت گاه بهاره شاپور اول شهر شاپور یا بیشاپور بوده که پس از اسلام مردم آن به محلی که خرابه‌هایش نزدیک کازرون است و «گازرگاه» مینامندش کوچ کرده‌اند و اینجا را هم به نظر میرسد زلزله‌ای زیرورو کرده باشد و زنده‌هایش را کازرون پذیرفته‌است . در این کوچ قدم به قدم و قرن‌ها و قرن‌ها یک جای دیگر هم بنام «جَدِس» در نزدیکی ده دریس فعلی به ما نشان می‌دهد که شاید مدتی هم اجداد کازرونی‌ها در آنجا زندگی داشته‌اند."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/nargeszarnahaee"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در پهنه شهرستان کازرون آثار تاریخی زیادی وجود دارد . بیشترین آثار این منطقه مربوط به دوره ساسانی است. این احتمال وجود دارد که هیچ کجای سرزمین ایران تا این اندازه آثار مربوط به دوره ساسانی را در بر نداشته باشد. بزرگ‌ترین و تنها مجسمه سنگی دوره ساسانی مجسمه شاپور اول واقع در غار شاپور، ۹ نقش برجسته از ۳۰ نقش برجسته دوره ساسانی، شهر تاریخی بیشاپور، بزرگ‌ترین کتیبه دیواری عهد ساسانی معروف به کتیبه کرتیر به طول۵٫۲۰ متر و عرض ۲٫۷۰ متر، معبد آناهیتا (الهه آب)، آتشکده‌های متعدد، عبور جاده شاهی از این دیار و آثار ارزشمند دیگر، همه و همه حکایت از تاریخ کهن این شهرستان دارد.
+
+کازرون از شهرهای قدیمی ایران است. در بعضی از منابع، از کازرون به عنوان شهر سلمان فارسی یاد شده‌است. کازرون در دوره هخامنشایان به گازرا شهرت داشته‌است. در زمان ساسانیان توسط شاپور اول از نو ساخته شد. در طول تاریخ، کازرون چندین بار با خاک یکسان شده‌است.
+
+کازرون در دوران انقلاب یکی از ۱۱ شهری بود که در آن حکومت نظامی توسط رژیم شاه اعلام شد . لاله زار شهدای کازرون دارای بیش از ۱۱۰۰ شهید است. کازرونیها آدمهای بسیار غریب نواز و دوست داشتنی هستند"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

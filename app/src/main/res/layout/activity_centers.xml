@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="آموزش و پرورش"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان بسیج"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره فرهنگ و ارشاد اسلامی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه ارشاد"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="حوزه علمیه"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="ابتدای خیابان قدمگاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncenter3"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="فرمانداری شهرستان کازرون"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="بلوار ارتش"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="نعاونی روستایی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="بلوار ارتش"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره محیط زیست"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="باغ آسیایی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter6"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره امور عشایر"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="باغ آسیایی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncenter7"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="جهاد کشاورزی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="کمربندی خرمشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter8"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره بازرگانی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="کمربندی خرمشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter9"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره آبفا"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="کمربندی خرمشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره منابع طبیعی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="کمربندی خرمشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter11"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره برق"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter12"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="دادگستری شهرستان کازرون"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه دادگستری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter13"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره پست"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter14"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بنیاد شهید"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه مخابرات"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter15"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره دارایی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی نرسیده به چهارراه بانک ملی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter16"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره تامین اجتماعی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان شریعتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter17"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="اداره ثبت اسناد"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان مطهری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter18"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="شهرداری"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان مطهری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btncenter19"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

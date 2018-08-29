@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد حضرت ابوالفضل علیه السلام"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="ابتدای فرهنگشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque1"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد موحد"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان نهضت"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque2"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد الزهرا"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="کمربندی خرمشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque3"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد صاحب الزمان"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه دادگستری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque4"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد حاج قنبر"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان 22 بهمن "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque5"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد امام حسین علیه السلام"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان شریعتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque6"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد امام حسن علیه السلام"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان شریعتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque7"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد سیدمحمد کاشی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه محمدی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque8"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد ملابرات"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام رضا علیه السلام"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnmosque9"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد امام خمینی ، آهنگران"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان انقلاب"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque10"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد شیخ"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام رضا علیه السلام"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnmosque11"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد مدرسه"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="ابتدای خیابان قدمگاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnmosque12"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد زید"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان محمدی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnmosque13"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مصلای نماز جمعه"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان حضرتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnmosque14"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد بازار"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان شهدا"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnmosque15"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد جامع شهدا"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان شهدا"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmosque16"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مسجد امامزاده"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان حضرتی "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnmosque17"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

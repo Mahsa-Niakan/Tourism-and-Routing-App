@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه ابرار"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="فرهنگشهر کوچه 6"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool1"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه ابواسحاق"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان ابواسحاق"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool2"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text=" مدرسه ابوالحسن زاده"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام خمینی کوی آزادگان"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool3"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه ابوریحان بیرونی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  بلوار براتی بالاتر از میدان فروردین"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool4"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه احمدی معلم"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  کوی الزهرا خ احمدی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool5"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه الزهرا"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text=" بلوار بهشت زهرا "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool6"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه امام خامنه ای"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خ باهنر بلوارجمهوری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool7"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه امام رضا"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  نتنج ک جنب استادیوم"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool8"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه امام علی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  بلوارمعلم خ ریحانه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool9"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه برادران شهیدبهبود"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  باغ اسیایی خ احمدی معلم"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool10"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه برادران شهید کوهنورد"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان باهنر کوچه 8"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool11"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه بعثت"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  میدان ترمینال"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool12"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه بهار ازادی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان شریعتی کوچه روزیطلب"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool13"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه بهجت العلما"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان بهار ازادی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool14"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه ثامن الائمه "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text=" جاده شیرازکازرون دوراهی دوان "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool15"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه احمدمصلایی  "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="    خیابان حضرتی کوچه امامزاده "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool16"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید دیده ور"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان قدمگاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool17"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه بهبهانی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان محمدی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool18"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه پیام "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="   سه راه ابوذر پشت بانک رفاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool19"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شاه امیری "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="روستای ناصرآباد شرقی روبروی شهرک پردیس "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool20"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید صادق زاده "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان باهنر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool21"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید فرخی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="انتهای خیابان حافظ شمالی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool22"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید صمد دشتبان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="فلکه بلوار ابتدای خیابان پزشکیان"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool23"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه قبازرد "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="روستای دریس "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool24"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه مرتجز، موحد "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان ورزش روبروی پادگان شهید بهشتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool25"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه مهدیه، 17 شهریور "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان قدس شمالی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool26"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه یزدانی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text=" انتهای خیابان قدس جنوبی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool27"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه حاج حسین احمدی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان کارگر شمالی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool28"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه حاج مهدی رفان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان بسیج جنب استادیوم"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool29"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه حجاب "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان حافظ جنوبی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool30"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه دکتر امیرزاده "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="بلوار سلمان شهرک پردیس"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool31"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شاهد رصاف "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان دارالسلام"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool32"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه زینب کبری "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان حافظ جنب دبستان حافظ"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool33"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه قدسی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان بسیج کوچه ورزش"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool34"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه سیدمحمد هاشمی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان حمیدی کوچه شهیدان رضازاده"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool35"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شاهد مصلحیان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان بسیج کوچه جنب تعاونی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool36"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شاهد یدالهی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان انقلاب خیابان وحدت غربی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool37"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهدای بلیان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="روستای بلیان "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool38"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید باهنر الف "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان کمربندی خرمشهر روبروی مرکز مخابرات سلمان فارسی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool39"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه بستانپور "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان شریعتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool40"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه بهبهانی نژاد "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان قدی جنب درمانگاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool41"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید جوکار "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان فلسطین"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool42"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید حسن زاده "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="انتهای خیابان 22 بهمن شمالی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool43"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید دست داده "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  روبرو اداره کشاورزی "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool44"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید دهقانی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان امام خمینی روبروی هلال احمر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool45"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شیرافکن "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  ج بوشهر کوی فرهنگیان "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool46"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه محسن پور "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان امیرکبیر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool47"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید کیامرزی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="روستای عمویی "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool48"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید کلاهدوز "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  روستای امامزاده سیدحسین "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool49"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهید نصرپور "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="شهرک شهیدبهشتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool50"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شهیده بانو برنجی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان دارالسلام"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool51"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه تقوا شهیده شیروانی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان قدمگاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool52"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه شیخ امین الدین "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان بهار آزادی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool53"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه صدرالسادات "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  کوچه ایرانمهر "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool54"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه عترت "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  روستای امام زاده سیدحسین "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool55"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه فاطمه الزهرا ، نمازی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool56"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه فاطمیه "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  روستای مهرنجان "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool57"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه فرزانگان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان ارتش کوچه پمپ بنزین"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool58"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه کانون رضوان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان سعدی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool59"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه مصباح شاهد "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان دارالسلام"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool60"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه موحد، منیری قدیم "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="بلوار ارتش جنب آتش نشانی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool61"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه هنرستان پزشکیان "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان ابوالفضل ج فراشبند"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool62"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه هنرستان فاطمه الزهرا "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان قدمگاه"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool63"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="مدرسه یدالهی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="  خیابان قدس جنوبی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnschool64"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

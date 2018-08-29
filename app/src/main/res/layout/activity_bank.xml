@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک سپه شعبه فردوسی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان فردوسی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbank1"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک ملت امام خمینی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک تجارت شعبه امام خمینی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank3"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک ملت شعبه امام خمینی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک پارسیان شعبه امام خمینی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک پاسارگاد شعبه امام خمینی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank30"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک تجارت شعبه حافظ"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان حافظ"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank31"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک سپه شعبه امام خمینی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbank6"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک اقتصاد نوین"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک ایران زمین"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbank8"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک مسکن مرکزی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه بانک ملی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank9"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک ملی مرکزی "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه بانک ملی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک کشاورزی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امام خمینی نرسیده به چهارراه بانک ملی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank11"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک صادرات مرکزی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه شریعتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank12"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک مسکن شعبه پیروزی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه ژاندارمری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank13"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="موسسه مالی و اعتباری مهر"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه ژاندارمری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank14"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک رفاه "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان شریعتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank15"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک سینا "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه ژاندارمری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank16"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک کوثر"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="بلوار امام خمینی ، چهارراه دادگستری"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank17"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="شهر بانک"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان مطهری جنب شهرداری "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank18"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک صادرات"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه محمدی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank19"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="موسسه مالی و اعتباری ثامن"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="شهدای جنوبی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank20"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک ملت"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="شهدای جنوبی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank21"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک قائم"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="شهدای جنوبی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank22"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک تجارت"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text=" میدان شهدا"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank23"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک صادرات"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان سلمان فارسی "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank24"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک سپه"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه مخابرات"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank25"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک مسکن"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="چهارراه مخابرات"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank26"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک ملی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان قدمگاه ، روبروی مسجد مدرسه "
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbank27"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک صادرات"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان ابوذر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank28"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="بانک رفاه کارگران"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان  حضرتی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnbank29"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

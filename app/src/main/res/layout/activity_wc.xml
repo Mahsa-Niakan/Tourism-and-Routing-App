@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی بوستان مردانی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="ابتدای فرهنگشهر، بوستان مردانی"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/btnwc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی بوستان معلم"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="فلکه امام حسین علیه السلام، بوستان معلم"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnwc2"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی پارک آزادی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان نهضت ، پارک آزادی"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/btnwc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان فردوسی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnwc4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان بعثت، بلوار پریشان، پارک جنگلی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnwc5"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="میدان امام خمینی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnwc6"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی بوستان مادر ، بانوان"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان نهضت"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnwc7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی پارک بنفشه"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان نهضت"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnwc8"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی بوستان رفیع"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="کمربندی خرمشهر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnwc9"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی باغ نظر"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان حافظ"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnwc10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی پارک، آرامگاه ناصر دیوان کازرونی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان امیرکبیر"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnwc11"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی پارک جنگلی تنگ تیکاب، پارک طالقانی"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان بهار آزادی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برای مسیریابی کلیک کنید"
+                android:id="@+id/btnwc12"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:textStyle="bold"
+                android:text="سرویس بهداشتی پارک سلمان"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="خیابان بهار آزادی"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnwc13"
+                android:text="برای مسیریابی کلیک کنید"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nikanmedia.hamsafareshahresabz">
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherrr"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TourismActivity"></activity>
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".EmergencyActivity"></activity>
+        <activity android:name=".CallActivity"></activity>
+        <activity android:name=".CprActivity"></activity>
+        <activity android:name=".BreakActivity"></activity>
+        <activity android:name=".SnakeActivity"></activity>
+        <activity android:name=".SamActivity"></activity>
+        <activity android:name=".KazerounActivity"></activity>
+        <activity android:name=".ContentActivity"></activity>
+        <activity android:name=".BestPlaceActivity"></activity>
+        <activity android:name=".CngActivity"></activity>
+        <activity android:name=".MosqueActivity"></activity>
+        <activity android:name=".WcActivity"></activity>
+        <activity android:name=".UrgentActivity"></activity>
+        <activity android:name=".ParkActivity"></activity>
+        <activity android:name=".RestaurantActivity"></activity>
+        <activity android:name=".CentersActivity"></activity>
+        <activity android:name=".HotelsActivity"></activity>
+        <activity android:name=".SportActivity"></activity>
+        <activity android:name=".Hospital_Activity"></activity>
+        <activity android:name=".EntezamiActivity"></activity>
+        <activity android:name=".BankActivity"></activity>
+        <activity android:name=".DrogActivity"></activity>
+        <activity android:name=".ParkingActivity"></activity>
+        <activity android:name=".SchoolsActivity"></activity>
+        <activity android:name=".HistoryplaceActivity"></activity>
+        <activity android:name=".NaturePlaceActivity"></activity>
+        <activity android:name=".MazhabiPlaceActivity"></activity>
+        <activity android:name=".NaturePlaceTwoActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
+    </application>
+
+</manifest>

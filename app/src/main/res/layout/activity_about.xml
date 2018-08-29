@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backaboutnahaee">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="168dp"
+    android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="279dp"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/titleaboutkaz"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="شهرستان کازرون با جمعیتی حدود 300 هزار نفر و وسعتی نزدیک به 4548 کیلومتر مربع در 154 کیلومتری غرب شیراز واقع شده است. این شهرستان از ابتدا از سه قریه نورد، راهبان و دریس تشکیل می شده است و روی هم به بلدالعتیق معروف بوده است. بعضی بر این عقیده اند چون کوه های پیرامون این شهر از لحاظ ثروت طبیعی غنی بوده آن را کوه زران نامیده اند. در بعضی از متون تاریخی، کازرون را شهرسبز نامیده اند چون در فصل بهار تمامی دشت و شهر سبز می شود.
+چشم اندازهای زیبا، طبیعت بکر و توانمندی های گوناگون اقلیمی و سیاسی دشت کازرون باعث  شده که این منطقه مجموعه ای کم نظیر از ارزش های تاریخی – فرهنگی را درون خود شکل دهد. در این راستا نگین درخشا و عنصر هویت دهنده این منطقه، شهر زیبا و تاریخی بیشاپور است که در 23 کیلومتری شهر فعلی کازرون قرار گرفته است. دریاچه پریشان با پرندگان مهاجر آن، نرگسزارهای فامور و جره، وجود انواع مرکبات و باغستان ها، این شهرستان را به منطقه ای زیبا جهت گردشگری تبدیل نموده است.
+                    "/>
+                <ImageView
+                    android:layout_width="279dp"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/titleaboutcreator"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" کاری از شهرداری کازرون"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="شرکت فناوری اطلاعات نیکان مدیا پیشرو"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <ImageView
+                    android:layout_width="279dp"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/titleaboutus"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="منتظر پیشنهادات و انتقادات شما هستیم!"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="تلفن های تماس:"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:text="137"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:text="07142229681"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textDirection="rtl"
+                        android:text="07142229883"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ایمیل: Shahrdari.Kazeroon@yahoo.com"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="سامانه پیامکی: 50002010097047"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt1"
+                    android:textColor="@color/colorPrimary"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                    android:text="تلگرام : shahrdari_kazeroon@"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="60"
+                    android:hint="پیشنهادات و انتقادات خود را اینجا بنویسید و برای ما ارسال کنید..."
+                    android:id="@+id/commentsabout"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/sendsms"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:layout_height="wrap_content"
+                    android:text="ارسال پیامک"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:id="@+id/sendmail"
+                    android:layout_height="wrap_content"
+                    android:text="ارسال ایمیل"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:text="شرکت فناوری اطلاعات نیکان مدیا پیشرو"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ایمیل:NikanMedia@Gmail.com"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="اینستاگرام:NikanMedia"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="شماره تماس: 09176067842"/>
+
+
+
+
+            </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

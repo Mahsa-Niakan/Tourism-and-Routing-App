@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backemergencynahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="فردی را میبینید که زخم واضحی نداشته و هوشیار است و نفس میکشد ولی به عللی به نظرتان میرسد دست یا پایش شکسته است."
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در صورت مواجه شدن با این وضعیت باید اقدامات زیر را بترتیب انجام دهید"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emergencyfirst"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="فورا با اورژانس تماس بگیرید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twoemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="به بیمار اطمینان دهید که مراقب او هستید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/threeemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="وقتی مطمئن نیستید که آیا اندام مورد نظر شکسته است یا خیر با آن مانند یک اندام شکسته رفتار کنید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fouremerg"
+                android:layout_gravity="right"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اندام آسیب دیده را فقط در موارد ضروری حرکت داده و از حرکت دادن بی مورد و مکرر آن اجتناب کنید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fiveemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اولویت اول در مواجهه با یک بیمار بدحال کنترل هوشیاری، تنفس، فشار خون و خونریزی بیمار است. پس اگر بیمار بیهوش است، نفس نمیکشد یا اختلالی در تنفس دارد، نبض وی ضعیف شده یا نمیزند و یا اگر خونریزی از زخم دارد اول باید به این مشکلات رسیدگی شود و پس از آن اقدامات اولیه در مورد شکستگی صورت گیرد"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sixemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اندام مشکوک به شکستگی باید بیحرکت شود. این بیحرکتی را میتوان با بستن اندام به تنه یا اندام مقابل و یا با آتل گیری انجام داد"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

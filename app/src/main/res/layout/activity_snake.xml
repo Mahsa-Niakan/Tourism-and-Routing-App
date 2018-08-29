@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backemergencynahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="مارگزیدگی از مواردی است که درمورد آن باید هوشیارانه و با دقت عمل کرد چرا که هرگونه غفلت منجر به عوارض خطرناکی برای فرد مسموم میگردد. با توجه به اینکه تنها تعداد محدودی از مارها سمی هستند ولی باید هرگونه مارگزیدگی را سمی تلقی کرد. "
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="علائم و نشانه های مار گزیدگی عبارتند از:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مشاهده مار، مشاهده سوراخ یا زخم در محل گزش، درد و سوزش شدید در محل گزش، قرمزی پوست و ایجاد تورم و تاول، تهوع، سرگیجه و احساس ضعف، کاهش فشار خون و تب لرز و تعرق، تند شدن تنفس یا تنگی نفس"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="کمک های اولیه:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emergencyfirst"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ابتدا محل حادثه را ارزیابی کرده و در صورت خطر مصدم را از محل دور کنید
+در صورت عدم وجود خطر بهتر است که مصدوم را بی حرکت نگهدارید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twoemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="با استفاده از باند یا پارچه که حدود 4 تا 5 سانتی متر عرض داشته باشد بالا و پایین محل گزش را ببندید باند طوری بسته شود که یه انگشت از زیر آن عبور کند. در صورتی که گزش در ناحیه مفصل است فقط بالای گزیدگی را ببندید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/threeemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="قسمت گزیده شده را در پایین تر از سطح قلب قرار دهید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fouremerg"
+                android:layout_gravity="right"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در نقطه گزیدگی یک برش خطی سطحی ایجاد کرده و با دستگاه مکش یا با مکش دهان در حدود 20 دقیقه زهر را از بدن بیمار خارج کنید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fiveemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="محل گزش را با صابون یا محلول آنتی سپتیک شستشو دهید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sixemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در صورتی که زهر بر روی سیستم عصبی تاثیرگذار بود بدلیل ایجاد خفگی سریعا انجام احیای قلبی،ریوی یا همان تنفس مصنوعی را انجام دهید ، بیمار را سریعا به اولین مرکز درمانی انتقال دهید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

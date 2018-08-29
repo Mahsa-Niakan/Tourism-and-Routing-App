@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="شهر بیشاپور"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/shapoornahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در فاصله 23 کیلومتری غرب کازرون در حاشیه رودخانه شاپور، این شهر به دستور شاپور اول ساسانی دومین پادشاه سلسله ساسانیان ساخته شده و تاریخ ساخت آن بر اساس کتیبه پهلوی ستون های یادبود مربوط به سال 262 میلادی است. این شهر تاریخی با وسعتی نزدیک به 200 هکتار شامل 3 بخش می باشد. بخش نخست یا اصلی که توسط یک حصار و دیوار سنگی محصور بوده و بناهای حکومتی و مذهبی همچون تالار تشریفات، کاخ والرین،ایوان و حیاط موازییک و معبد آناهیتا را شامل می شود. بخش دوم که قسمت حفاظتی و نگهبانی شهر بوده، شامل قلعه ای به نام قلعه دختر است که در طرف شمال شهر بر سینه کوه شاپور قرار گرفته است. بخش سوم شامل بناهایی چون مدرسه اسلامی دوره آل بویه ، مسجد جامع ، حمام های بیشاپور و بنای یادبود یا ستون های یادبود است."/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text=" تالار تشریفات"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/talarnahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تالار پذیرایی شاپور در محوطه ای به مساحت 781 متر مربع ساخته شده است. این تالار مرکب از چهار ایوان متقابل و متقارن است که برفراز آن گنبدی شلجمی شکل با 25 متر ارتفاع قرار داشته است. خود بنا بصورت چلیپا و با طرح 16 ضلعی است و جمعا 64 طاقچه در این تالار وجود داشته که همگی دارای تزئینات و گچبری های زیبایی بوده اند."
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="معبد آناهیتا"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/anahitanahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="این پرستشگاه به آناهیتا فرشته پاسدار آب تعلق داشته و محلی برای نیایش آب بوده است. آناهیتا الهه آب‌های زیرزمینی، مظهر زایش و زیبایی بوده است. این بنا بصورت مکعبی و هر یک از اضلاع آن ۱۴ متر می‌باشد و آن از سنگ‌های حجاری شده و بدون ملات و بصورت دو جدار با الهام از سبک معماری دوره هخامنشی ساخته شده است. سنگ‌های معبد بوسیله بست‌های فلزی از درون بهم قفل و بند شده‌اند.
+به منظور هدایت آسان‌تر آب به صحن مرکزی معبد و جریان گردش آب، این معبد را در عمق ۶ متری از زمین ساخته‌اند تا آب رودخانه شاپور از طریق یک کانال ۲۵۰ متری به درون آن سرازیر نمایند. با توجه به سنگ‌های تنظیم آب و جوی‌های سنگی و باریک که حرکت آب را به طرزی باشکوه به آبگیر وسط هدایت می‌کنند؛ برای تقسیم و جریان آب در این پرستشگاه شیوه‌هایی بکار گرفته شده تا چشم‌نوازی و شیوه این عنصر مقدس را به زیباترین شکل ممکن به نمایش بگذارند."/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="قلعه دختر"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/ghaledokhtarnahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در شمالی ترین نقطه شهر بیشابور و بر فراز کوه شاپور آثار قلعه‌ای است که به قلعه دختر معروف است. وجه تسمیه این قلعه به سبب انتساب آن به الهه آناهیتا خدای آب‌های زیرزمینی و پاکی‌ها بوده این قلعه وظیفه حفاظت از شهر تاریخی بیشاپور را بر عهده داشته است."/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

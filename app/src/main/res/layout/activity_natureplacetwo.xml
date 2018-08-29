@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="چهارطاقی بالاده"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="208dp"
+                            android:src="@drawable/chartaghinahaee"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="از جمله آتشکده هایی است که با ارتفاع 14 متر توسط مهر نرسی وزیر بزرگ بهرام پنجم پادشاه ساسانی در بخش جره و بالاده و در فاصله 55 کیلومتری کازرون در مسیر جاده کازرون به فراشبند واقع شده است."/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="نقش برجسته قندیل"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="208dp"
+                            android:src="@drawable/ghandilnahaee"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در 20 کیلومتری جنوب غربی شهر تاریخی بیشاپور، در کنار جاده قائمیه به نورآباد ممسنی در نزدیکی چشمه ای بر قطعه سنگ بزرگی نقش برجسته بسیار جالبی از شاپور و همسرش آذر آناهیتا حجاری شده که این نقش برجسته مربوط به پیوند زناشویی شاپور با ملکه آذر آناهیتا است. این مراسم با حضور کرتیر موبدان موبد زمان ساسانی صورت گرفته است."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="غار و مجسمه شاپور"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="208dp"
+                            android:src="@drawable/mojasamenahaee"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در پنج کیلومتری شمال شهر بیشاپور، در
+            سمت چپ و در ارتفاع ۸۰۰ متری بر سینه‌ کوه شمالی، غار نسبتا بزرگی وجود دارد که در ابتدای غار، مجسمه سنگی عظیم و باشکوه شاپور اول ساسانی، بنیانگذار شهر بیشاپور قرار دارد که ارتفاع این مجسمه بیش از ۷ متر و عرض شانه‌های آن به ۲ متر می‌رسد و وزن تقریبی آن ۳۰ تن می‌باشد. که با تراشیدن ستون قطور آهکی توسط هنرمندان ساسانی حجاری شده و در نوع خود بزرگترین مجسمه دوران تاریخی ایران می‌باشد."/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="بنای یاد بود و متن کتیبه‌ی آن"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="208dp"
+                            android:src="@drawable/yadboodnahaee"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="این بنا تقریبا در مرکز شهر بیشاپور و تقاطع دو خیابان اصلی شهر واقع گردیده است.
+سند تاریخی شهرسازی بیشاپور بر روی یکی از دو ستون به خط پهلوی اشکانی و ساسانی حک شده است. متن نوشته بر روی ستون نشان‌دهنده‌ آن است ناظر و مجری طرح شهرسازی بیشاپور شخصی به نام آپسای از اهالی حران و سوریایی بوده است.
+متن کتیبه : در فروردین ماه (در) سال ۵۸ (از) آتش اردشیر (در) سال ۴۰ (از) آتش‌های شاپور از آتش‌های شاهی (در) سال ۲۴ این تصویر (پیکره) بغ مزداپرست خدایگان شاپور، شاهان شاه ایران و امیران که چهره‌ای از ایزدان دارد. نواده خدایگان پاپک شاه (این) کار آپسای دبیر از شهر حران از خاندان خویش (بکرد) و بدین روال زمانی بغ مزداپرست، شاپور شاهان شاه ایران و امیران که چهره‌ای از ایزدان دارد (بدینجا آمد) و زمانی که شاهان شاه این پیکره را دید (ایستاد) و به آپسای دبیر سیم و بندگان و کنیزان و باغ‌ها و دارایی بخشید."/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

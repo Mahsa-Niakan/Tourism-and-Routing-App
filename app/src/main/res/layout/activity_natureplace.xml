@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmaonahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="دشت برم یا دشت شقایق"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/barmnahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="از مهم ترین جاذبه های طبیعی شهرستان کازرون که در فاصله 30 کیلومتری شرق شهر کازرون واقع شده است و در فصل بهار و بخصوص اردیبهشت ماه این نقطه مملو از گل های وحشی شقایق می شود."/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="دریاچه پریشان"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/pariiiishannahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="یکی از زیباترین دریاچه‌های آب‌ شیرین کشور دریاچه پریشان است که به دلیل قرار گرفتن در کنار کوه‌های جنگلی و همچنین پوشش گیاهی وسیعی که در حاشیه آن روییده زیبایی شگفت‌انگیزی دارد. وجود هزاران پرنده از انواع گوناگون زیبایی آن را دوچندان می‌کند.
+دریاچه پریشان در ۱۲ کیلومتری جنوب شرقی شهر کازرون در حاشیه جنوبی ارتفاعات زاگرس و با وسعت ۴۳ کیلومتر مربع با دارا بودن آب شیرین همچون نگین انگشتری در طبیعت زیبای منطقه می‌درخشد. این دریاچه دارای نام‌های متفاوتی در طول پیدایش بوده است. از آن جمله مور پریشان، شور، کازرون، یون، موز، توز، پریشم، فزشویه و فامور.
+دریاچه پریشان به لحاظ شرایط خاص خود همه ساله در طول فصل زمستان پذیرای جمعیت زیادی از پرندگان می‌باشد. از ۵۰۲ گونه پرنده‌ای که در ایران شناسایی شده است چیزی بیش از ۱۰۰ گونه آن در منطقه ارژن مشاهده و شناسائی گردیده است."/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="چشمه سراب اردشیر"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/sarabardeshirnahaee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="این چشمه تاریخی در کنار امامزاده سید حسین (ع) و ۲۴ کیلومتری شهر کازرون واقع گردیده است و نیز در فاصله ۲ کیلومتری شهر تاریخی بیشاپور. این چشمه در روزگار باستان در مسیر جاده شاهی قرار داشته است. چشمه مذکور نیز یکی از منابع تامین آب آشامیدنی و کشاورزی مردم منطقه محسوب می‌شود.
+در کنار آن علاوه بر امامزاده سیدحسین چهار طاقی نیز وجود دارد."/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                style="bold"
+                android:textColor="@color/colorAccent"
+                android:text="نرگسزارهای کازرون"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:src="@drawable/nargeszarnahaeee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عمده نرگسزارهای کازرون نزدیک به 65 هکتار در بخش جره و بالاده در فاصله 55 کیلومتری جنوب شرق کازرون واقع گردیده است. بهمن ماه فصل به گل نشستن این گل می باشد"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

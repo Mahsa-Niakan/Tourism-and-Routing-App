@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backemergencynahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در موارد ایست قلبی یا تنفسی، مهمترین اقدام، برقراری مجدد تنفس و پردش خون برای اکسیژن رسانی به مغز می باید که انجام عملیات سی پی آر این هدف را تامین می کند. آسیب به سلول های مغزی چند ثانیه پس از ایست قلبی،تنفسی شروع می شود و نبود اکسیژن پس از 4 الی 6 دقیقه باعث مرگ مغزی می گردد. بنابراین انجام سی پی آر در 4 تا 6 دقیقه اول پس از ایست قلبی از اهمیت بالایی برخوردار است که به این مدت، زمان طلایی گفته می شود. سی پی آر ترکیبی از تنفس دهان به دهان و فشار خارجی قلب یا همان ماساژ قلبی است. زمانی که حین انجام تنفس مصنوعی، نبض گردن وجود نداشته باشد سی پی آر را آغاز کنید."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مراحل احیای قلبی،ریوی:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emergencyfirst"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مطمئن شوید که مصدوم بیهوش است"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twoemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="راه هوایی، تنفس و گردش خون بیمار را کنترل کنید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/threeemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="با مانور سر عقب، چانه بالا راه هوایی مصدوم را باز کنید و 2 بار به مصدوم تنفس بدهید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fouremerg"
+                android:layout_gravity="right"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نبض کاروتید مصدوم را بررسی کنید، درصورت  عدم نبض، مصدوم را روی سطح صاف بخوابانید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fiveemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="کنار سینه مصدوم زانو بزنید، دستها را بحالت ضربدری در محل مذکور روی هم قرار داده و انگشت های دو دست را به طرف بالا در هم قلاب کنید، بازوان خود را کاملا عمو و راست نگهدارید و با کمک گرفتن از نیروی وزنتان آنقدر فشار دهید تا قفسه سینه 4 تا 5 سانتی متر در بزرگسالان به سمت پایین جابجا شود"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sixemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="فشارها را بطور منظم و یکسان وارد کنید و دست های خود را برندارید"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

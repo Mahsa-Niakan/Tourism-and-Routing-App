@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backemergencynahaee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:src="@drawable/empty"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="مسمومیّت های گوارشی از شایع ترین مسمومیت ها می باشند و اغلب بصورت تصادفی و بر اثر نگهداری مواد سمی و شیمیایی مختلف در ظروف نامناسب و یا ظروف مواد آشامیدنی اتفاق می افتد. در این نوع مسمومیت ماده سمی از راه دهان وارد بدن می شود. پس از مدتی عوارضی در فرد مسموم ایجاد می شودکه این علائم با توجه به نوع سم، قدرت سم، مقدار مصرف ، جثه فرد مصرف کننده و طول مدتی که از خوردن سم می گذرد متفاوت است"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="مسمومیت غذایی که با خوردن غذاهای آلوده بوجود می آید. برای جلوگیری از آن باید شرایط صحیح نگهداری و پخت غذاها رعایت شود و کلیه غذاهای آماده قبل از مصرف کاملاً جوشانیده و کنسرو ها بصورت باز نشده به مدت ۲۰ دقیقه در آب جوشانده شود."
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="علائم و نشانه های مسمومیت های گوارشی:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="وجود سوختگی یا رنگ سم بلع شده در اطراف دهان و لب ها، بوی غیر طبیعی دهان یا تنفس مصدوم، تنفس غیر طبیعی، نبض یا ضربان غیر طبیعی قلب، تعریق، مردمک های تنگ یا گشاد شده، تشنج، درد شکم، کف کردن، دهان یا افزایش ترشح بزاق، بلع دردناک، تهوع، اسهال و استفراغ"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="کمک های اولیه مسمومیت های گوارشی:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emergencyfirst"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="با خوراندن آب و شیر به مسموم سم را رقیق کنید."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twoemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="در صورت در اختیار داشتن ذغال فعال از آن برای جذب سم استفاده کنید. مولکول های ذغال در معده و روده به سم چسبیده و مانع جذب آنها می شوند. لذا می توانید به بیمار پودر ذغال فعال که در آب مخلوط شده است بدهید."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/threeemerg"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+هر چه سریعتر مصدوم را به بیمارستان یا مرکز پزشکی انتقال دهید."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fouremerg"
+                android:layout_gravity="right"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="از ایجاد استفراغ در بیمار خودداری نمایید."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
